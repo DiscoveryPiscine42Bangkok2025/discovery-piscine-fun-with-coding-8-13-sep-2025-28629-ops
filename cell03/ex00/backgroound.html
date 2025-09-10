@@ -6,10 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="backgroound.css">
 </head>
-<body>
-
+<body id="back">
+    <button onclick="ramdom()">Click me</button>
     <script>
-
+        function ramdom()
+        {
+            let A = Math.floor(Math.random() * 255);
+            let B = Math.floor(Math.random() * 255);
+            let C = Math.floor(Math.random() * 255);
+            document.getElementById("back").style.backgroundColor = `rgb(${A},${B},${C})`;
+        }
     </script>
 </body>
 </html>
