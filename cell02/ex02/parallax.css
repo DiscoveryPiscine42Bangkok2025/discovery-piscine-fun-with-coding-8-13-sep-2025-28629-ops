@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+
+}
+
+.parallax {
+
+    background-image: url("https://st-th-1.byteark.com/assets.punpro.com/contents/i98009/1718099702261-1717756861_1710948344_InsideOut2-200324-1%20%282%29.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.parallax2 {
+
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/f5b9c8c363a381c3fba27b59507df942c130189ef79dab689ddd84a9c05c4d3d._SX1080_FMjpg_.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box {
+    height: 40vh;
+    width: 100wv;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
