@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        select {
+            width: 10%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 30px;
+            flex-direction: column;
+        }
+
+        .Box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Box">
+        <input type="number" id="a">
+        <select name="" id="b">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input type="number" id="c">
+    </div>
+
+    <input type="submit" value="Try me!" onclick="cal()">
+    <script src="todo.js"></script>
+</body>
+
+</html>
