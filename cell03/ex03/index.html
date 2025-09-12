@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            height: 100vh;
+        }
+        button {
+            width: 8%;
+            height: 3%;
+        }
+        .box{
+            width: 25%;
+            height: 50%;
+            text-align: center;
+        }
+        .mini{
+            border: solid 1px black;
+            height: 7%;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="new_list()">New</button>
+    <div id="ft_list" class="box">
+    
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
